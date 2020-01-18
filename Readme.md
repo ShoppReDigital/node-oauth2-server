@@ -1,5 +1,7 @@
 # Node OAuth2 Server [![Build Status](https://travis-ci.org/thomseddon/node-oauth2-server.png?branch=2.0)](https://travis-ci.org/thomseddon/node-oauth2-server)
 
+[Demo](https://login.shoppre.com) | [Implementation](https://identity.shoppre.com/guide/nodejs-oauth-implementation.html) | 
+
 Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with [express](http://expressjs.com/) in [node.js](http://nodejs.org/)
 
 ## Installation

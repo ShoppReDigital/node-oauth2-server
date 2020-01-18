@@ -1,7 +1,7 @@
 {
-  "name": "oauth2-server",
+  "name": "@shoppre/oauth2-server",
   "description": "Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "keywords": [
     "oauth",
     "oauth2"
@@ -41,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomseddon/node-oauth2-server.git"
+    "url": "https://github.com/shoppre/node-oauth2-server.git"
   }
 }
