@@ -1,13 +1,13 @@
 # Node OAuth2 Server [![Build Status](https://travis-ci.org/thomseddon/node-oauth2-server.png?branch=2.0)](https://travis-ci.org/thomseddon/node-oauth2-server)
 
-[Demo](https://login.shoppre.com) | [Implementation](https://identity.shoppre.com/guide/nodejs-oauth-implementation.html) | 
+[Demo](https://login.shoppre.com/signin?client_id=identity) | [Implementation](https://identity.shoppre.com/guide/nodejs-oauth-implementation.html) | 
 
 Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with [express](http://expressjs.com/) in [node.js](http://nodejs.org/)
 
 ## Installation
 
 ```
-npm install oauth2-server
+npm i @shoppre/oauth2-server
 ```
 
 ## Quick Start
@@ -17,7 +17,7 @@ The module provides two middlewares, one for authorization and routing, another 
 ```js
 var express = require('express'),
     bodyParser = require('body-parser'),
-    oauthserver = require('oauth2-server');
+    oauthserver = require('@shoppre/oauth2-server');
 
 var app = express();
 
