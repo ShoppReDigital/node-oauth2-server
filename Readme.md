@@ -7,7 +7,7 @@ Complete, compliant and well tested module for implementing an OAuth2 Server/Pro
 ## Installation
 
 ```
-npm i @shoppre/oauth2-server
+npm i @shoppredigital/oauth2-server
 ```
 
 ## Quick Start
@@ -17,7 +17,7 @@ The module provides two middlewares, one for authorization and routing, another 
 ```js
 var express = require('express'),
     bodyParser = require('body-parser'),
-    oauthserver = require('@shoppre/oauth2-server');
+    oauthserver = require('@shoppredigital/oauth2-server');
 
 var app = express();
 
